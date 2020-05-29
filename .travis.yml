@@ -6,7 +6,8 @@ branches:
 stages:
   - test 
 before_script:
-  - npm ci
+  - npm cache clean --force
+  - npm uptade
 script:
   - npm uninstall typescript --no-save
   - npm install
