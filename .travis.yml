@@ -7,7 +7,7 @@ stages:
   - test 
 before_script:
   - npm cache clean --force
-  - npm uptade
+  - npm update
 script:
   - npm uninstall typescript --no-save
   - npm install
