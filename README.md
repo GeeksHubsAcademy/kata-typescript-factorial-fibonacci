@@ -13,11 +13,11 @@ vscode-icons  https://marketplace.visualstudio.com/items?itemName=vscode-icons-t
 ts-jest       https://github.com/kulshekhar/ts-jest 
 ```
 
+
 ## Línea de comandos.
 ```
 npm install --save-dev jest
 npm i @types/jest
-yarn add -D ts-jest
 
 Prerequisites       npm i -D jest typescript	
 Installing          npm i -D ts-jest @types/jest	
